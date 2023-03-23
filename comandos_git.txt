@@ -1,0 +1,22 @@
+// COMANDOS DE GIT 
+// CONFIGURACION DE CREDENCIALES
+
+    git config --global user.name "user"
+    git config --global user.password "clave"
+    git config --global user.email "email"
+
+// PARA VER LAS CREDENCIALES
+
+    git config --global --list
+
+// REMOVER CONFIGURACION DE CREDENCIALES
+
+    git config --global --remove-section user.name= "user"
+
+// SINCRONIZAR EL REPOSITORIO CON GITHUB
+
+    git init    
+    git add .
+    git commit -m 'Inicio del repositorio de ADSO 1516'
+    git remote add origin "Link del token"
+    git push -u origin master 
