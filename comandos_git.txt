@@ -20,3 +20,12 @@
     git commit -m 'Inicio del repositorio de ADSO 1516'
     git remote add origin "Link del token"
     git push -u origin master 
+
+// PARA CLONAR EL REPOSITORIO, SOLO SE PUEDE HACER UNA VEZ
+
+    git clone https://github.com/Dxvvid17/ADSO-1516.git  <-- Link del repositorio
+
+// PARA ACTUALIZAR 
+
+    git pull origin master
+    
